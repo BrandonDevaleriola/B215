@@ -1,9 +1,16 @@
 # syntax=docker/dockerfile:1
-FROM ruby:2.5
-RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
+# [Choice] Ruby version: 2, 2.7, 2.6, 2.5
+ARG VARIANT=2.5
+FROM ruby:${VARIANT}
+
+# update system and install packages you need
+RUN apt-get update -qq && apt-get install -y nodejs postgresql-client && npm install -g yarn@1
+
+# define the directory that we want to use
 WORKDIR /myapp
 COPY Gemfile /myapp/Gemfile
 COPY Gemfile.lock /myapp/Gemfile.lock
+# install Bundler
 RUN bundle install
 
 # Add a script to be executed every time the container starts.
