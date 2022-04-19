@@ -19,16 +19,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_04_19_182801) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "tools", force: :cascade do |t|
-    t.integer "user_id"
-    t.integer "sku"
-    t.string "type"
-    t.string "name"
-    t.text "description"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "users", force: :cascade do |t|
     t.string "firstName"
     t.string "middleName"
