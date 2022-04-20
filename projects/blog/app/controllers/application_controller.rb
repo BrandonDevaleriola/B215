@@ -1,5 +1,3 @@
 class ApplicationController < ActionController::Base
-	#   # base home route
-	  def home
-	  end
+	include SessionsHelper
 end
