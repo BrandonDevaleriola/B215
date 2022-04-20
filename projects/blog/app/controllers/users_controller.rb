@@ -1,10 +1,10 @@
 class UsersController < ApplicationController
   before_action :set_user, only: %i[ show edit update destroy ]
-  before_action :logged_in_user, only: [:index, :edit, :update]
+  before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
   before_action :correct_user, only: [:edit, :update]
 
   WillPaginate.per_page = 10
-  
+
   # GET /users or /users.json
   def index
     @users = User.paginate(page: params[:page])
