@@ -2,14 +2,18 @@
 <%= render 'layouts/header' %>
 <h1>Users</h1>
 
-<div id="users">
+<%= will_paginate %>
+
+<ul class="users">
   <% @users.each do |user| %>
-    <%= render user %>
-    <p>
+    <li class="user">
+      <%= render user %>
       <%= link_to "Show this user", user %>
-    </p>
+    </li>
   <% end %>
-</div>
+</ul>
+
+<%= will_paginate %>
 
 <%= link_to "New user", new_user_path %>
 <%= render 'layouts/footer' %>
