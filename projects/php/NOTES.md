@@ -80,6 +80,9 @@ Laravel framework for building components that have SPA-like dynamic lifecycle b
 * AlpineJS(https://alpinejs.dev/)
 A library that let's html elements have access to custom directive that provide rendering logic
 
+* Meilisearch (https://docs.meilisearch.com/learn/what_is_meilisearch/overview.html)
+A open source search engine that can be used with Laravel Scout. Meilisearch is a RESTful search API. It aims to be a ready-to-go solution for everyone who wants a fast and relevant search experience for their end-users 
+
 * DBAL (https://www.doctrine-project.org/projects/dbal.html)
 PHP database abstraction layer (DBAL) with many features for database schema introspection and management
 
