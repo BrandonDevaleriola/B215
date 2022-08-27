@@ -18,6 +18,9 @@ Artisan is the command line interface included with Laravel
 * Breeze(https://laravel.com/docs/9.x/starter-kits#laravel-breeze)
 Starter kit which uses templates for Blade templating or React/Vue scaffolding via Inertia(https://inertiajs.com/) frontend
 
+* Broadcasting (https://laravel.com/docs/9.x/broadcasting previously "Echo" https://github.com/laravel/echo)
+Listen for WebSocket events broadcast by your application(broadcasted channels with Pusher or Redis)
+
 * Blade(https://laravel.com/docs/9.x/blade)
 simple, yet powerful templating engine
 
@@ -26,9 +29,6 @@ Offers payments for: subscription billing services, subscription management, cou
 
 * Dusk(https://laravel.com/docs/9.x/dusk)
 Automated browser testing with ChromeDriver
-
-* Broadcasting (https://laravel.com/docs/9.x/broadcasting previously "Echo" https://github.com/laravel/echo)
-Listen for WebSocket events broadcast by your application(broadcasted channels with Pusher or Redis)
 
 * Fortify (https://laravel.com/docs/9.x/fortify#what-is-fortify)
 A frontend agnostic authentication for registers the routes and controllers needed to implement all of Laravel's authentication features, including login, registration, password reset, email verification
