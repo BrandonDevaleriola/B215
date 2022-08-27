@@ -1,6 +1,8 @@
 # Laravel
 https://laravel.com/docs/9.x/installation
 
+Aside: This documentation is all on the Laravel documentation site. However, this reference intentionally leaves out paid services/offerings included in the Laravel documentation. 
+
 ## Notes about this setup
 
 Sail command used: 
