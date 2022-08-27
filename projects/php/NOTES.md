@@ -27,7 +27,7 @@ Offers payments for: subscription billing services, subscription management, cou
 * Dusk(https://laravel.com/docs/9.x/dusk)
 Automated browser testing with ChromeDriver
 
-* Echo(https://github.com/laravel/echo), now Broadcasting
+* Broadcasting (https://laravel.com/docs/9.x/broadcasting previously "Echo" https://github.com/laravel/echo)
 Listen for WebSocket events broadcast by your application(broadcasted channels with Pusher or Redis)
 
 * Fortify (https://laravel.com/docs/9.x/fortify#what-is-fortify)
